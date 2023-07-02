@@ -887,8 +887,6 @@
                                         $(".subscribe-form").submit();
                                         clearInterval(window.timeout);
                                     }
-                                  
-
 
                                 }, 1000);
                             }
@@ -897,8 +895,6 @@
                         $('#begin-slider-qa-intro').click(function () {
                             $('a.bx-next').trigger('click');
                         });
-                        //console.log(lstRightAnswer);
-
                     }
 
                     function handleClick(obj) {
@@ -906,10 +902,6 @@
                         var a = $(obj).attr("a");
                         var i = $(obj).attr("i");
                         lstYourAnswer[i] = q + "_" + a;
-
-                        //console.log('lstRightAnswer : ' + lstRightAnswer);
-                        //console.log('lstYourAnswer : ' + lstYourAnswer);
-
                         corr = 0;
                         for (i = 0; i < lstRightAnswer.length; i++) {
                             if (lstRightAnswer[i] == lstYourAnswer[i]) {
@@ -988,7 +980,6 @@
                     function showResult() {
                         var item = '';
                         item += '<li class="form-question result">';
-                        //item += '    <h2 id="">Bạn đã hoàn thành bài kiểm tra của chúng tôi.</h2>';
                         item += '    <h2 id="messR">Hãy trả lời toàn bộ câu hỏi của chúng tôi.</h2>';
                         item += '    <h3 id="titleR"></h3>';
                         item += '    <span id="h3abcde"></span>';
@@ -1059,7 +1050,6 @@
                         if (window.focus) {
                             newwindow.focus();
                         }
-                        //e.preventDefault();
                     }
 
                     function urlEncode(str) {
