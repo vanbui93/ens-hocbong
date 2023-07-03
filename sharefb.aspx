@@ -15,9 +15,9 @@
     <meta http-equiv="EXPIRES" content="10000" />
     <meta name="resource-type" content="Document" />
     <meta name="distribution" content="Global" />
-    <meta name="generator" content="ens.vn" />
+    <meta name="generator" content="enschannel.com" />
     <meta name="copyright" content="Ecommerce & Marketing  ENS" />
-    <meta name="author" content="ens.vn" />
+    <meta name="author" content="enschannel.com" />
     <meta name="robots" content="index,follow" />
     <meta http-equiv="audience" content="General" />
     <meta name="revisit-after" content="1 days" />
@@ -48,7 +48,7 @@
    <%Response.Write(img); %> 
      <%Response.Write(desc); %> 
     <meta property="og:type" content="article" />
-    <meta property="og:site_name" content="hocbong.ens.vn" />
+    <meta property="og:site_name" content="hocbong.enschannel.com" />
    
 </head>
 <body onload="window.location.href = 'http://hocbong.enschannel.com/'">
