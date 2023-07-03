@@ -39,7 +39,7 @@
                             }
          String wurl = String.Format("<meta id='idOgUrl' property='og:url' content='{0}' /> ", Request.Url.AbsoluteUri);
          String desc = String.Format("<meta id='idOgDesc' property='og:description' content='{0}' />", titleR);
-         String img= String.Format(" <meta id='idOgImg' property='og:image' content='http://event.ens.vn/source/thum-fb-{0}.jpg' />",Request.Params["ia"]);
+         String img= String.Format(" <meta id='idOgImg' property='og:image' content='https://event.enschannel.com/source/thum-fb-{0}.jpg' />",Request.Params["ia"]);
          %>
        <%Response.Write(wurl); %> 
    <%Response.Write(img); %> 
@@ -48,7 +48,7 @@
     <meta property="og:site_name" content="event.ens.vn" />
    
 </head>
-<body onload="window.location.href = 'http://event.ens.vn/game'">
+<body onload="window.location.href = 'https://event.enschannel.com/game'">
 
     <form id="form1" runat="server">
 
