@@ -42,7 +42,7 @@
                             }
          String wurl = String.Format("<meta id='idOgUrl' property='og:url' content='{0}' /> ", Request.Url.AbsoluteUri);
          String desc = String.Format("<meta id='idOgDesc' property='og:description' content='{0}' />", titleR);
-         String img = String.Format(" <meta id='idOgImg' property='og:image' content='http://hocbong.enschannel.com/shareimage.aspx.cs?namecode={0}' />", nameCode);
+         String img = String.Format(" <meta id='idOgImg' property='og:image' content='http://hocbong.enschannel.com/shareimage.aspx?namecode={0}' />", nameCode);
          %>
        
    <%Response.Write(img); %> 
