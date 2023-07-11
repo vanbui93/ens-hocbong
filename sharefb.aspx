@@ -7,7 +7,7 @@
 <head runat="server">
   
     <title>
-        Chia sẻ kết quả trắc trên Ecommerce & Marketing  ENS
+        Chia sẻ kết quả trắc nghiệm trên Ecommerce & Marketing  ENS
     </title>
     <meta id="pageMetaDesc" name="description" />
     <meta id="pageMetaNewsKeyword" name="news_keywords" />

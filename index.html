@@ -163,9 +163,9 @@
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
     js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.4&appId=257392991128831";
+    js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.4";
     fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+}(document, 'script', 'facebook-jssdk'));</script>  
     <div class="timer">
         <div class="process"></div>
         <div class="phut">
@@ -844,7 +844,7 @@
                                 $('a.bx-next').trigger('click');
                             }
                             if (isValid) {
-                                // $("#banner-share").attr("src", "http://hocbong.enschannel.com/shareimage.aspx?name=" + $("#txtfullname").val());
+                                $("#banner-share").attr("src", "http://hocbong.enschannel.com/shareimage.aspx?name=" + $("#txtfullname").val());
                                 $(".timer").show();
                                
                                 window.timeout= setInterval(function () {
