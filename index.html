@@ -829,7 +829,6 @@
                                 $('a.bx-next').trigger('click');
                             }
                             if (isValid) {
-                                $("#banner-share").attr("src", "http://hocbong.enschannel.com/shareimage.aspx?name=" + $("#txtfullname").val());
                                 $(".timer").show();
                                
                                 window.timeout= setInterval(function () {
@@ -932,7 +931,7 @@
                         item += '</li>';
 
                         item += '<li class="form-question result">';
-                        item += '<img src="source/share.png" id="banner-share" width="800px" height="450px" alt="chứng nhận hoàn thành kiến thức marketing - iq">';
+                        item += '<img src="./source/share.png" id="banner-share" width="800px" height="450px" alt="chứng nhận hoàn thành kiến thức marketing - iq">';
                         item += '<div id="social-wrapt"><a href="javascript:;" class="sharefb" onclick="shareR(5,2)"></a></div>';
                         item += '</li>';
                         return item;
