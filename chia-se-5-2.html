@@ -22,18 +22,10 @@
     <meta http-equiv="audience" content="General" />
     <meta name="revisit-after" content="1 days" />
     <meta name="RATING" content="GENERAL" />
-
     <meta id="idOgIitle" property="og:title" content="[Trắc nghiệm] Bạn là người thế nào trong công việc?" />
-     <% 
-      var corr=Int32.Parse(Request.Params["corr"]);
-      string titleR="Bài test này không thể làm khó bạn, bạn như một chú lính chì luôn kiên cường trong mọi hoàn cảnh. Yayyyyyy. Bạn là một thiên tài, óc sáng tạo khủng khiếp và khả năng xử lý công việc tuyệt vờiii.";
-         String wurl = String.Format("<meta id='idOgUrl' property='og:url' content='{0}' /> ", Request.Url.AbsoluteUri);
-         String desc = String.Format("<meta id='idOgDesc' property='og:description' content='{0}' />", titleR);
-         String img= String.Format(" <meta id='idOgImg' property='og:image' content='https://event.enschannel.com/source/thum-fb-{0}.jpg' />",Request.Params["ia"]);
-         %>
-       <%Response.Write(wurl); %> 
-   <%Response.Write(img); %> 
-     <%Response.Write(desc); %> 
+     <meta id='idOgUrl' property='og:url' content='1' />
+     <meta id='idOgDesc' property='og:description' content='1' />
+     <meta id='idOgImg' property='og:image' content='https://event.enschannel.com/source/thum-fb-4.jpg' />
     <meta property="og:type" content="article" />
     <meta property="og:site_name" content="event.enschannel.com" />
    
